@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "16D50A351A94292000BAE4A0"
-               BuildableName = "UIScrollViewAndUIPageControl.app"
-               BlueprintName = "UIScrollViewAndUIPageControl"
-               ReferencedContainer = "container:UIScrollViewAndUIPageControl.xcodeproj">
+               BuildableName = "UIScrollViewInStoryboard.app"
+               BlueprintName = "UIScrollViewInStoryboard"
+               ReferencedContainer = "container:UIScrollViewInStoryboard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "16D50A4A1A94292100BAE4A0"
-               BuildableName = "UIScrollViewAndUIPageControlTests.xctest"
-               BlueprintName = "UIScrollViewAndUIPageControlTests"
-               ReferencedContainer = "container:UIScrollViewAndUIPageControl.xcodeproj">
+               BuildableName = "UIScrollViewInStoryboardTests.xctest"
+               BlueprintName = "UIScrollViewInStoryboardTests"
+               ReferencedContainer = "container:UIScrollViewInStoryboard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "16D50A4A1A94292100BAE4A0"
-               BuildableName = "UIScrollViewAndUIPageControlTests.xctest"
-               BlueprintName = "UIScrollViewAndUIPageControlTests"
-               ReferencedContainer = "container:UIScrollViewAndUIPageControl.xcodeproj">
+               BuildableName = "UIScrollViewInStoryboardTests.xctest"
+               BlueprintName = "UIScrollViewInStoryboardTests"
+               ReferencedContainer = "container:UIScrollViewInStoryboard.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "16D50A351A94292000BAE4A0"
-            BuildableName = "UIScrollViewAndUIPageControl.app"
-            BlueprintName = "UIScrollViewAndUIPageControl"
-            ReferencedContainer = "container:UIScrollViewAndUIPageControl.xcodeproj">
+            BuildableName = "UIScrollViewInStoryboard.app"
+            BlueprintName = "UIScrollViewInStoryboard"
+            ReferencedContainer = "container:UIScrollViewInStoryboard.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "16D50A351A94292000BAE4A0"
-            BuildableName = "UIScrollViewAndUIPageControl.app"
-            BlueprintName = "UIScrollViewAndUIPageControl"
-            ReferencedContainer = "container:UIScrollViewAndUIPageControl.xcodeproj">
+            BuildableName = "UIScrollViewInStoryboard.app"
+            BlueprintName = "UIScrollViewInStoryboard"
+            ReferencedContainer = "container:UIScrollViewInStoryboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "16D50A351A94292000BAE4A0"
-            BuildableName = "UIScrollViewAndUIPageControl.app"
-            BlueprintName = "UIScrollViewAndUIPageControl"
-            ReferencedContainer = "container:UIScrollViewAndUIPageControl.xcodeproj">
+            BuildableName = "UIScrollViewInStoryboard.app"
+            BlueprintName = "UIScrollViewInStoryboard"
+            ReferencedContainer = "container:UIScrollViewInStoryboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

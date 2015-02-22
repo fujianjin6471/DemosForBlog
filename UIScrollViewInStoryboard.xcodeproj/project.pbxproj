@@ -12,7 +12,7 @@
 		16D50A411A94292100BAE4A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D50A3F1A94292100BAE4A0 /* Main.storyboard */; };
 		16D50A431A94292100BAE4A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D50A421A94292100BAE4A0 /* Images.xcassets */; };
 		16D50A461A94292100BAE4A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16D50A441A94292100BAE4A0 /* LaunchScreen.xib */; };
-		16D50A521A94292100BAE4A0 /* UIScrollViewAndUIPageControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D50A511A94292100BAE4A0 /* UIScrollViewAndUIPageControlTests.swift */; };
+		16D50A521A94292100BAE4A0 /* UIScrollViewInStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D50A511A94292100BAE4A0 /* UIScrollViewInStoryboardTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,21 +21,21 @@
 			containerPortal = 16D50A2E1A94292000BAE4A0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 16D50A351A94292000BAE4A0;
-			remoteInfo = UIScrollViewAndUIPageControl;
+			remoteInfo = UIScrollViewInStoryboard;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16D50A361A94292000BAE4A0 /* UIScrollViewAndUIPageControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScrollViewAndUIPageControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D50A361A94292000BAE4A0 /* UIScrollViewInStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScrollViewInStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D50A3A1A94292000BAE4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16D50A3B1A94292000BAE4A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16D50A3D1A94292100BAE4A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16D50A401A94292100BAE4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16D50A421A94292100BAE4A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		16D50A451A94292100BAE4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		16D50A4B1A94292100BAE4A0 /* UIScrollViewAndUIPageControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollViewAndUIPageControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D50A4B1A94292100BAE4A0 /* UIScrollViewInStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollViewInStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D50A501A94292100BAE4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16D50A511A94292100BAE4A0 /* UIScrollViewAndUIPageControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewAndUIPageControlTests.swift; sourceTree = "<group>"; };
+		16D50A511A94292100BAE4A0 /* UIScrollViewInStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewInStoryboardTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +59,8 @@
 		16D50A2D1A94292000BAE4A0 = {
 			isa = PBXGroup;
 			children = (
-				16D50A381A94292000BAE4A0 /* UIScrollViewAndUIPageControl */,
-				16D50A4E1A94292100BAE4A0 /* UIScrollViewAndUIPageControlTests */,
+				16D50A381A94292000BAE4A0 /* UIScrollViewInStoryboard */,
+				16D50A4E1A94292100BAE4A0 /* UIScrollViewInStoryboardTests */,
 				16D50A371A94292000BAE4A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,13 +68,13 @@
 		16D50A371A94292000BAE4A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16D50A361A94292000BAE4A0 /* UIScrollViewAndUIPageControl.app */,
-				16D50A4B1A94292100BAE4A0 /* UIScrollViewAndUIPageControlTests.xctest */,
+				16D50A361A94292000BAE4A0 /* UIScrollViewInStoryboard.app */,
+				16D50A4B1A94292100BAE4A0 /* UIScrollViewInStoryboardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16D50A381A94292000BAE4A0 /* UIScrollViewAndUIPageControl */ = {
+		16D50A381A94292000BAE4A0 /* UIScrollViewInStoryboard */ = {
 			isa = PBXGroup;
 			children = (
 				16D50A3B1A94292000BAE4A0 /* AppDelegate.swift */,
@@ -84,7 +84,7 @@
 				16D50A441A94292100BAE4A0 /* LaunchScreen.xib */,
 				16D50A391A94292000BAE4A0 /* Supporting Files */,
 			);
-			path = UIScrollViewAndUIPageControl;
+			path = UIScrollViewInStoryboard;
 			sourceTree = "<group>";
 		};
 		16D50A391A94292000BAE4A0 /* Supporting Files */ = {
@@ -95,13 +95,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		16D50A4E1A94292100BAE4A0 /* UIScrollViewAndUIPageControlTests */ = {
+		16D50A4E1A94292100BAE4A0 /* UIScrollViewInStoryboardTests */ = {
 			isa = PBXGroup;
 			children = (
-				16D50A511A94292100BAE4A0 /* UIScrollViewAndUIPageControlTests.swift */,
+				16D50A511A94292100BAE4A0 /* UIScrollViewInStoryboardTests.swift */,
 				16D50A4F1A94292100BAE4A0 /* Supporting Files */,
 			);
-			path = UIScrollViewAndUIPageControlTests;
+			path = UIScrollViewInStoryboardTests;
 			sourceTree = "<group>";
 		};
 		16D50A4F1A94292100BAE4A0 /* Supporting Files */ = {
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16D50A351A94292000BAE4A0 /* UIScrollViewAndUIPageControl */ = {
+		16D50A351A94292000BAE4A0 /* UIScrollViewInStoryboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16D50A551A94292100BAE4A0 /* Build configuration list for PBXNativeTarget "UIScrollViewAndUIPageControl" */;
+			buildConfigurationList = 16D50A551A94292100BAE4A0 /* Build configuration list for PBXNativeTarget "UIScrollViewInStoryboard" */;
 			buildPhases = (
 				16D50A321A94292000BAE4A0 /* Sources */,
 				16D50A331A94292000BAE4A0 /* Frameworks */,
@@ -127,14 +127,14 @@
 			);
 			dependencies = (
 			);
-			name = UIScrollViewAndUIPageControl;
-			productName = UIScrollViewAndUIPageControl;
-			productReference = 16D50A361A94292000BAE4A0 /* UIScrollViewAndUIPageControl.app */;
+			name = UIScrollViewInStoryboard;
+			productName = UIScrollViewInStoryboard;
+			productReference = 16D50A361A94292000BAE4A0 /* UIScrollViewInStoryboard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		16D50A4A1A94292100BAE4A0 /* UIScrollViewAndUIPageControlTests */ = {
+		16D50A4A1A94292100BAE4A0 /* UIScrollViewInStoryboardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16D50A581A94292100BAE4A0 /* Build configuration list for PBXNativeTarget "UIScrollViewAndUIPageControlTests" */;
+			buildConfigurationList = 16D50A581A94292100BAE4A0 /* Build configuration list for PBXNativeTarget "UIScrollViewInStoryboardTests" */;
 			buildPhases = (
 				16D50A471A94292100BAE4A0 /* Sources */,
 				16D50A481A94292100BAE4A0 /* Frameworks */,
@@ -145,9 +145,9 @@
 			dependencies = (
 				16D50A4D1A94292100BAE4A0 /* PBXTargetDependency */,
 			);
-			name = UIScrollViewAndUIPageControlTests;
-			productName = UIScrollViewAndUIPageControlTests;
-			productReference = 16D50A4B1A94292100BAE4A0 /* UIScrollViewAndUIPageControlTests.xctest */;
+			name = UIScrollViewInStoryboardTests;
+			productName = UIScrollViewInStoryboardTests;
+			productReference = 16D50A4B1A94292100BAE4A0 /* UIScrollViewInStoryboardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 16D50A311A94292000BAE4A0 /* Build configuration list for PBXProject "UIScrollViewAndUIPageControl" */;
+			buildConfigurationList = 16D50A311A94292000BAE4A0 /* Build configuration list for PBXProject "UIScrollViewInStoryboard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +181,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16D50A351A94292000BAE4A0 /* UIScrollViewAndUIPageControl */,
-				16D50A4A1A94292100BAE4A0 /* UIScrollViewAndUIPageControlTests */,
+				16D50A351A94292000BAE4A0 /* UIScrollViewInStoryboard */,
+				16D50A4A1A94292100BAE4A0 /* UIScrollViewInStoryboardTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,7 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D50A521A94292100BAE4A0 /* UIScrollViewAndUIPageControlTests.swift in Sources */,
+				16D50A521A94292100BAE4A0 /* UIScrollViewInStoryboardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +230,7 @@
 /* Begin PBXTargetDependency section */
 		16D50A4D1A94292100BAE4A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 16D50A351A94292000BAE4A0 /* UIScrollViewAndUIPageControl */;
+			target = 16D50A351A94292000BAE4A0 /* UIScrollViewInStoryboard */;
 			targetProxy = 16D50A4C1A94292100BAE4A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -336,9 +336,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UIScrollViewAndUIPageControl/Info.plist;
+				INFOPLIST_FILE = UIScrollViewInStoryboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UIScrollViewInStoryboard;
 			};
 			name = Debug;
 		};
@@ -346,9 +346,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UIScrollViewAndUIPageControl/Info.plist;
+				INFOPLIST_FILE = UIScrollViewInStoryboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UIScrollViewInStoryboard;
 			};
 			name = Release;
 		};
@@ -364,10 +364,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = UIScrollViewAndUIPageControlTests/Info.plist;
+				INFOPLIST_FILE = UIScrollViewInStoryboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollViewAndUIPageControl.app/UIScrollViewAndUIPageControl";
+				PRODUCT_NAME = UIScrollViewInStoryboardTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollViewInStoryboard.app/UIScrollViewInStoryboard";
 			};
 			name = Debug;
 		};
@@ -379,17 +379,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = UIScrollViewAndUIPageControlTests/Info.plist;
+				INFOPLIST_FILE = UIScrollViewInStoryboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollViewAndUIPageControl.app/UIScrollViewAndUIPageControl";
+				PRODUCT_NAME = UIScrollViewInStoryboardTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollViewInStoryboard.app/UIScrollViewInStoryboard";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16D50A311A94292000BAE4A0 /* Build configuration list for PBXProject "UIScrollViewAndUIPageControl" */ = {
+		16D50A311A94292000BAE4A0 /* Build configuration list for PBXProject "UIScrollViewInStoryboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16D50A531A94292100BAE4A0 /* Debug */,
@@ -398,21 +398,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16D50A551A94292100BAE4A0 /* Build configuration list for PBXNativeTarget "UIScrollViewAndUIPageControl" */ = {
+		16D50A551A94292100BAE4A0 /* Build configuration list for PBXNativeTarget "UIScrollViewInStoryboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16D50A561A94292100BAE4A0 /* Debug */,
 				16D50A571A94292100BAE4A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		16D50A581A94292100BAE4A0 /* Build configuration list for PBXNativeTarget "UIScrollViewAndUIPageControlTests" */ = {
+		16D50A581A94292100BAE4A0 /* Build configuration list for PBXNativeTarget "UIScrollViewInStoryboardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16D50A591A94292100BAE4A0 /* Debug */,
 				16D50A5A1A94292100BAE4A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
