@@ -9,10 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var tableView: UITableView!
+    let refreshControl = UIRefreshControl()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        configureRefreshControl()
+    }
+    
+    func configureRefreshControl() {
+        refreshControl.addTarget(self, action: "refreshEffect", forControlEvents: .ValueChanged)
+        tableView.insertSubview(refreshControl, atIndex: 0)
+    }
+    
+    func refreshEffect() {
+        println("Refresh!")
+        refreshControl.endRefreshing()
     }
 
     override func didReceiveMemoryWarning() {

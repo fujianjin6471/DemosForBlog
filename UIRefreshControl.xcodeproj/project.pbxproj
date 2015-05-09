@@ -13,6 +13,7 @@
 		16AA52261AFDB682006A7837 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AA52251AFDB682006A7837 /* Images.xcassets */; };
 		16AA52291AFDB682006A7837 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16AA52271AFDB682006A7837 /* LaunchScreen.xib */; };
 		16AA52351AFDB682006A7837 /* UIRefreshControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AA52341AFDB682006A7837 /* UIRefreshControlTests.swift */; };
+		16AA523F1AFDB917006A7837 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AA523E1AFDB917006A7837 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		16AA522E1AFDB682006A7837 /* UIRefreshControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIRefreshControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16AA52331AFDB682006A7837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16AA52341AFDB682006A7837 /* UIRefreshControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRefreshControlTests.swift; sourceTree = "<group>"; };
+		16AA523E1AFDB917006A7837 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				16AA521E1AFDB682006A7837 /* AppDelegate.swift */,
 				16AA52201AFDB682006A7837 /* ViewController.swift */,
+				16AA523E1AFDB917006A7837 /* TableViewController.swift */,
 				16AA52221AFDB682006A7837 /* Main.storyboard */,
 				16AA52251AFDB682006A7837 /* Images.xcassets */,
 				16AA52271AFDB682006A7837 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16AA52211AFDB682006A7837 /* ViewController.swift in Sources */,
+				16AA523F1AFDB917006A7837 /* TableViewController.swift in Sources */,
 				16AA521F1AFDB682006A7837 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
