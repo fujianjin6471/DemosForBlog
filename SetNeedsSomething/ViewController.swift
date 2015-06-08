@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var rootView: RootView!
+    @IBOutlet weak var orangeSquare: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func setFrameOnly(sender: UIButton) {
+        orangeSquare.frame.origin.x += 100
+    }
 
+    @IBAction func setFrameWithUpdatingConstraints(sender: UIButton) {
+        orangeSquare.frame.origin.x += 100
+        rootView.setNeedsUpdateConstraints()
+    }
+    
+    @IBAction func setNeedsLayout(sender: UIButton) {
+        rootView.setNeedsLayout()
+    }
 }
 
