@@ -13,6 +13,8 @@
 		164CF34F1B29235000397C49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164CF34E1B29235000397C49 /* Images.xcassets */; };
 		164CF3521B29235000397C49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164CF3501B29235000397C49 /* LaunchScreen.xib */; };
 		164CF35E1B29235000397C49 /* SetNeedsDisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CF35D1B29235000397C49 /* SetNeedsDisplayTests.swift */; };
+		164CF3681B2923AB00397C49 /* DrawLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CF3671B2923AB00397C49 /* DrawLineView.swift */; };
+		164CF36E1B29275600397C49 /* HSCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CF36D1B29275600397C49 /* HSCButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		164CF3571B29235000397C49 /* SetNeedsDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetNeedsDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		164CF35C1B29235000397C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		164CF35D1B29235000397C49 /* SetNeedsDisplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetNeedsDisplayTests.swift; sourceTree = "<group>"; };
+		164CF3671B2923AB00397C49 /* DrawLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawLineView.swift; sourceTree = "<group>"; };
+		164CF36D1B29275600397C49 /* HSCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				164CF3471B29235000397C49 /* AppDelegate.swift */,
 				164CF3491B29235000397C49 /* ViewController.swift */,
+				164CF3671B2923AB00397C49 /* DrawLineView.swift */,
+				164CF36D1B29275600397C49 /* HSCButton.swift */,
 				164CF34B1B29235000397C49 /* Main.storyboard */,
 				164CF34E1B29235000397C49 /* Images.xcassets */,
 				164CF3501B29235000397C49 /* LaunchScreen.xib */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164CF36E1B29275600397C49 /* HSCButton.swift in Sources */,
 				164CF34A1B29235000397C49 /* ViewController.swift in Sources */,
+				164CF3681B2923AB00397C49 /* DrawLineView.swift in Sources */,
 				164CF3481B29235000397C49 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
