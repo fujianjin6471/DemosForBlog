@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController2.swift
 //  UsingNSCoder
 //
 //  Created by 付剑津 on 7/4/15.
@@ -8,50 +8,52 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController2: UIViewController {
     @IBOutlet weak var textField: UITextField!
+    var onlyText = CustomClass()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        loadText()
+        
+        loadCustomObject()
+        textField.text = onlyText.text
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func dataFilePath() -> String {
         let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true) as! [String]
-        return (paths[0]).stringByAppendingPathComponent("TextField.plist")
+        return (paths[0]).stringByAppendingPathComponent("Object.plist")
     }
     
-    func saveText() {
+    func saveCustomObject() {
+        onlyText.text = textField.text
+        
         let data = NSMutableData()
         let archiver = NSKeyedArchiver(forWritingWithMutableData: data)
-        archiver.encodeObject(textField.text, forKey: "FieldText")
+        archiver.encodeObject(onlyText, forKey: "CustomObject")
         archiver.finishEncoding()
         data.writeToFile(dataFilePath(), atomically: true)
     }
     
-    func loadText() {
+    func loadCustomObject() {
         let path = dataFilePath()
         if NSFileManager.defaultManager().fileExistsAtPath(path) {
             if let data = NSData(contentsOfFile: path) {
                 let unarchiver = NSKeyedUnarchiver(forReadingWithData: data)
-                textField.text = unarchiver.decodeObjectForKey("FieldText") as! String
+                onlyText = unarchiver.decodeObjectForKey("CustomObject") as! CustomClass
                 unarchiver.finishDecoding()
             }
         }
     }
 
-    @IBAction func save(sender: AnyObject) {
-        saveText()
+    @IBAction func saveAction(sender: AnyObject) {
+        saveCustomObject()
         let alert = UIAlertController(title: "Prompt", message: "Data saved!", preferredStyle: .Alert)
         let firstAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil)
         alert.addAction(firstAction)
         presentViewController(alert, animated: true, completion: nil)
     }
 }
-

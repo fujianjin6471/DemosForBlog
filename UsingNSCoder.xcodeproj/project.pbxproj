@@ -13,6 +13,8 @@
 		162B98F51B47D2FE00A88609 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162B98F41B47D2FE00A88609 /* Images.xcassets */; };
 		162B98F81B47D2FE00A88609 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162B98F61B47D2FE00A88609 /* LaunchScreen.xib */; };
 		162B99041B47D2FE00A88609 /* UsingNSCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162B99031B47D2FE00A88609 /* UsingNSCoderTests.swift */; };
+		167D54541B4825CF0009D071 /* CustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167D54531B4825CF0009D071 /* CustomClass.swift */; };
+		167D54561B4828730009D071 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167D54551B4828730009D071 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		162B98FD1B47D2FE00A88609 /* UsingNSCoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsingNSCoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		162B99021B47D2FE00A88609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		162B99031B47D2FE00A88609 /* UsingNSCoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingNSCoderTests.swift; sourceTree = "<group>"; };
+		167D54531B4825CF0009D071 /* CustomClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomClass.swift; sourceTree = "<group>"; };
+		167D54551B4828730009D071 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				162B98ED1B47D2FE00A88609 /* AppDelegate.swift */,
 				162B98EF1B47D2FE00A88609 /* ViewController.swift */,
+				167D54551B4828730009D071 /* ViewController2.swift */,
+				167D54531B4825CF0009D071 /* CustomClass.swift */,
 				162B98F11B47D2FE00A88609 /* Main.storyboard */,
 				162B98F41B47D2FE00A88609 /* Images.xcassets */,
 				162B98F61B47D2FE00A88609 /* LaunchScreen.xib */,
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167D54541B4825CF0009D071 /* CustomClass.swift in Sources */,
+				167D54561B4828730009D071 /* ViewController2.swift in Sources */,
 				162B98F01B47D2FE00A88609 /* ViewController.swift in Sources */,
 				162B98EE1B47D2FE00A88609 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +417,7 @@
 				162B99091B47D2FE00A88609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		162B990A1B47D2FE00A88609 /* Build configuration list for PBXNativeTarget "UsingNSCoderTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				162B990C1B47D2FE00A88609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
