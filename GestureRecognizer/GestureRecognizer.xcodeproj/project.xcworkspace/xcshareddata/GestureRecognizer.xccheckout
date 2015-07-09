@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9144977A-40CF-44F8-8EE0-45CE7C571E18</string>
+	<string>5A2B3D36-65EB-40A2-BD13-C3CD61B5788B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>UIScrollViewInStoryboard</string>
+	<string>GestureRecognizer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>DC21D2FCBFA952538FD1CA3F23595241DC289BC4</key>
-		<string>https://github.com/fujianjin6471/UIScrollViewInStoryboard.git</string>
+		<key>51F9CA8C044226834C2C09256B969F5DA1935AE3</key>
+		<string>https://github.com/fujianjin6471/DemosForBlog.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UIScrollViewInStoryboard.xcodeproj</string>
+	<string>GestureRecognizer/GestureRecognizer.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>DC21D2FCBFA952538FD1CA3F23595241DC289BC4</key>
-		<string>../..</string>
+		<key>51F9CA8C044226834C2C09256B969F5DA1935AE3</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/fujianjin6471/UIScrollViewInStoryboard.git</string>
+	<string>https://github.com/fujianjin6471/DemosForBlog.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>DC21D2FCBFA952538FD1CA3F23595241DC289BC4</string>
+	<string>51F9CA8C044226834C2C09256B969F5DA1935AE3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>DC21D2FCBFA952538FD1CA3F23595241DC289BC4</string>
+			<string>51F9CA8C044226834C2C09256B969F5DA1935AE3</string>
 			<key>IDESourceControlWCCName</key>
-			<string>UIScrollViewInStoryboard</string>
+			<string>DemosForBlog</string>
 		</dict>
 	</array>
 </dict>

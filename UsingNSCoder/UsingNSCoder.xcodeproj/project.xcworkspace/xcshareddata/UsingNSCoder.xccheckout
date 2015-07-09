@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3ACEA45C-C079-45C0-A6B0-C14B4C4F0A65</string>
+	<string>670336A7-DE14-4F07-9F4A-CF761B799931</string>
 	<key>IDESourceControlProjectName</key>
-	<string>SetNeedsDisplay</string>
+	<string>UsingNSCoder</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>51F9CA8C044226834C2C09256B969F5DA1935AE3</key>
 		<string>https://github.com/fujianjin6471/DemosForBlog.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SetNeedsDisplay/SetNeedsDisplay.xcodeproj</string>
+	<string>UsingNSCoder/UsingNSCoder.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>51F9CA8C044226834C2C09256B969F5DA1935AE3</key>
