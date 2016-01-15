@@ -159,6 +159,7 @@
 		16EF36581B743A2900A84C0C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = fujianjin6471;
 				TargetAttributes = {
@@ -413,6 +414,7 @@
 				16EF36811B743A2900A84C0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16EF36821B743A2900A84C0C /* Build configuration list for PBXNativeTarget "UIActivityViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +423,7 @@
 				16EF36841B743A2900A84C0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
